@@ -1,0 +1,26 @@
+
+.button {
+    display: inline-block;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.button:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.button.danger {
+    background-color: var(--danger-color);
+}
+
+.button.danger:hover {
+    background-color: var(--danger-color-hover);
+}

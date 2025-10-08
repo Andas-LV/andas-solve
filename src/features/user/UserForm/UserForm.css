@@ -1,0 +1,30 @@
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.user-form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-form label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.user-form input {
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.user-form .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
